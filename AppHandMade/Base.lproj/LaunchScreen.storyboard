@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qidongtu.png" translatesAutoresizingMaskIntoConstraints="NO" id="reH-WU-qhr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="reH-WU-qhr" secondAttribute="trailing" id="9G6-7c-P9h"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="COm-ak-KYo"/>
+                            <constraint firstAttribute="trailing" secondItem="reH-WU-qhr" secondAttribute="trailing" id="I5d-53-rIo"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Igu-C4-Thb"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Jj9-CH-6yL"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="NBh-ut-r9Y"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="reH-WU-qhr" secondAttribute="bottom" id="NEA-Vw-In8"/>
+                            <constraint firstAttribute="trailing" secondItem="reH-WU-qhr" secondAttribute="trailing" id="NEY-mM-AhF"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="reH-WU-qhr" secondAttribute="bottom" id="NlT-XU-8fc"/>
+                            <constraint firstAttribute="trailing" secondItem="reH-WU-qhr" secondAttribute="trailing" id="Ood-oO-eRn"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Rbb-qd-HpX"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="U5l-wx-d2Y"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="reH-WU-qhr" secondAttribute="bottom" id="XeJ-eh-Eju"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="reH-WU-qhr" secondAttribute="bottom" id="cFl-S7-wkM"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="dxe-Vs-10Z"/>
+                            <constraint firstItem="reH-WU-qhr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zmc-I7-aY6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9G6-7c-P9h"/>
+                                <exclude reference="COm-ak-KYo"/>
+                                <exclude reference="Igu-C4-Thb"/>
+                                <exclude reference="NBh-ut-r9Y"/>
+                                <exclude reference="NEY-mM-AhF"/>
+                                <exclude reference="Ood-oO-eRn"/>
+                                <exclude reference="Rbb-qd-HpX"/>
+                                <exclude reference="dxe-Vs-10Z"/>
+                                <exclude reference="zmc-I7-aY6"/>
+                                <exclude reference="NEA-Vw-In8"/>
+                                <exclude reference="NlT-XU-8fc"/>
+                                <exclude reference="cFl-S7-wkM"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="NEY-mM-AhF"/>
+                                <include reference="Rbb-qd-HpX"/>
+                                <include reference="dxe-Vs-10Z"/>
+                                <include reference="cFl-S7-wkM"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="9G6-7c-P9h"/>
+                                <include reference="Igu-C4-Thb"/>
+                                <include reference="NBh-ut-r9Y"/>
+                                <include reference="NlT-XU-8fc"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="COm-ak-KYo"/>
+                                <include reference="Ood-oO-eRn"/>
+                                <include reference="zmc-I7-aY6"/>
+                                <include reference="NEA-Vw-In8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.5" y="373.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qidongtu.png" width="1242" height="2208"/>
+    </resources>
+</document>
